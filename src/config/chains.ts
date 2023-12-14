@@ -16,7 +16,6 @@ import {
   linea,
   mainnet,
   neonMainnet,
-  Mantle,
   opBNB,
   optimism,
   polygon,
@@ -136,6 +135,7 @@ export const inscriptionChains = {
   filecoin,
   shibarium,
   sepolia,
+  mantle,
 };
 
 export type ChainKey = keyof typeof inscriptionChains;
